@@ -14,6 +14,7 @@
 .names{
     padding-top: 20px;
 }
+
 .password{
     background-image: linear-gradient(to right, black 0%, black 100%);
     background-size: 100% 2px;
@@ -26,4 +27,8 @@
 
 .eye{
     cursor: pointer;
+}
+
+.btn{
+    border-radius: 2px;
 }
