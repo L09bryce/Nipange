@@ -1,0 +1,40 @@
+.signPage{
+    height: 400px;
+    width: 400px;
+    margin-left: 350px;
+    margin-top: 100px;
+
+}
+
+.usName{
+    margin-left: 10px;
+    padding-top: 40px;
+}
+
+.userName{
+    background-image: linear-gradient(to right, black 0%, black 100%);
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    width: 250px;
+    outline: none;
+}
+
+.crPassword{
+    background-image: linear-gradient(to right, black 0%, black 100%);
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    outline: none;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.conPassword{
+    background-image: linear-gradient(to right, black 0%, black 100%);
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    outline: none;
+    width: 250px;
+}

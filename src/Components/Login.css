@@ -17,9 +17,9 @@
 
 .password{
     background-image: linear-gradient(to right, black 0%, black 100%);
+    background-position: 0% 100%;
     background-size: 100% 2px;
     background-repeat: no-repeat;
-    background-position: 0 100%;
     border: none;
     outline: none;
     margin-top: 5px;

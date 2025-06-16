@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Login.css'
 import { FaRegEye, FaEyeSlash } from "react-icons/fa";
 
@@ -70,7 +71,10 @@ const Login = () => {
             >Let me in</button>
                 </div>
             </form>
-            
+            <div>
+                <Link className='text-blue-300' to= "/signUp">Sign up</Link>
+            </div>
+
         </div>
     </div>
   )
