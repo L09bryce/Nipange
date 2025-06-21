@@ -1,40 +1,33 @@
-.signPage{
-    height: 400px;
-    width: 400px;
-    margin-left: 350px;
-    margin-top: 100px;
-
+.signUp{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.usName{
-    margin-left: 10px;
-    padding-top: 40px;
+.jipange{
+    font-size: larger;
+    font-size: 50px;
+}
+.form{
+    width: 420px;
+    height: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.userName{
-    background-image: linear-gradient(to right, black 0%, black 100%);
-    background-position: 0% 100%;
-    background-size: 100% 2px;
-    background-repeat: no-repeat;
-    width: 250px;
-    outline: none;
+.h1{
+    font-size: 15px;
 }
 
-.crPassword{
-    background-image: linear-gradient(to right, black 0%, black 100%);
-    background-position: 0% 100%;
-    background-size: 100% 2px;
-    background-repeat: no-repeat;
-    outline: none;
-    width: 250px;
-    margin-bottom: 10px;
+.text1{
+    font-size: 12px;
 }
 
-.conPassword{
-    background-image: linear-gradient(to right, black 0%, black 100%);
-    background-position: 0% 100%;
-    background-size: 100% 2px;
-    background-repeat: no-repeat;
-    outline: none;
-    width: 250px;
+.text2{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.signup placeholder{
+    font-weight: bolder;
 }
