@@ -2,11 +2,14 @@ package JIPANGE.JBP.UserService;
 
 import java.util.Collection;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import JIPANGE.JBP.UserModel.UsersModel;
+import JIPANGE.JBP.UxersModel.UsersModel;
+
+
 
 public class UserPrincipal implements UserDetails{
 	
@@ -36,7 +39,7 @@ public class UserPrincipal implements UserDetails{
 	@Override
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return user.getUserName();
+		return user.getUsername();
 	}
 
 }
