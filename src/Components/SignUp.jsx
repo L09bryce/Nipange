@@ -22,10 +22,10 @@ const SignUp = () => {
                <input className='border-1 rounded border-gray-300 p-1.5' type="text" placeholder='LastName' />
             </div>
             <div className='btns flex py-3'>
-              <p>Gender</p>
+
               <label htmlFor="" className='border-1 rounded w-20 mr-3 border-gray-300'>Male <input type='radio' name='gender' value="Male" /></label>
 
-              <label htmlFor="" className='border-1 rounded  mr-3 w-20 border-gray-300'>Female <input  type='radio' name='gender' value="Femaale"/></label>
+              <label htmlFor="" className='border-1 rounded  mr-3 w-20 border-gray-300'>Female <input  type='radio' name='gender' value="Female"/></label>
               <label htmlFor="" className='border-1 rounded w-20 mr-3 border-gray-300'>Custom<input  type='radio' name='gender' value="Custom"/></label>
             </div>
             <div className='py-5'>
